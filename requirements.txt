@@ -1,0 +1,32 @@
+# Django and core dependencies
+Django>=4.2.0,<5.0
+django-ratelimit>=3.0.0
+
+# Caching and Redis
+redis>=4.5.0
+django-redis>=5.2.0
+
+# Celery for background tasks
+celery>=5.2.0
+celery[redis]>=5.2.0
+
+# HTTP requests for geolocation
+requests>=2.28.0
+
+# Optional: For better IP address handling
+ipaddress>=1.0.0
+
+# Optional: For more advanced geolocation
+# django-ipware>=4.0.0
+
+# Development and debugging
+django-extensions>=3.2.0
+
+# Database (choose one)
+# PostgreSQL
+# psycopg2-binary>=2.9.0
+
+# MySQL
+# mysqlclient>=2.1.0
+
+# SQLite is included with Django by default
